@@ -27,7 +27,7 @@ function ns.GenerateRestockPanel(frame)
 	end
 
 	local function OnClick(self)
-		PlaySound("UChatScrollButton")
+		PlaySound(SOUNDKIT.U_CHAT_SCROLL_BUTTON)
 
 		local diff = (self.up and 1 or -1) * (IsModifiedClick() and select(8, GetItemInfo(self.row.id)) or 1)
 		ns.dbpc.stocklist[self.row.id] = ns.dbpc.stocklist[self.row.id] + (diff)
