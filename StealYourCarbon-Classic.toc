@@ -1,4 +1,4 @@
-## Interface: 90005
+## Interface: 11307
 
 ## Title: Steal Your Carbon
 ## Notes: Automatically restock items from vendors and your bank
